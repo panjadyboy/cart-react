@@ -10,11 +10,11 @@ function Cartdetails({cart}) {
 return (
     <div>
 {
-    <div>
+    <div >
     <img src={cartItem.image} width={45} style={{borderRadius:10 , width:300 , height:300 , marginBottom:50 , marginTop:40}}/>
     <span style={{fontSize:20 , fontWeight:500 , color:'red' ,padding:50 , marginBottom:50}}> model :{cartItem.name}</span>
     <span style={{fontSize:20 , fontWeight:500 , color:'red' ,padding:50 , marginBottom:50}}>price : {cartItem.price}</span>
-    <div style={{width:'100%' , height:3 , backgroundColor:'black'}}></div>
+    <div style={{width:'100%' , height:3 , backgroundColor:'black' , margin:10}}></div>
     </div>
 }
     </div>

@@ -9,19 +9,19 @@ function App() {
   const [ product , setProduct] = useState([
     {
       id :'1',
-      name :'alexa',
+      name :' Amazon alexa ',
       price : 3000,
       image:'./images/1.jpg'
   },
   {
       id :'2',
-      name :'firetv',
+      name :' Amazon fire tv ',
       price : 2000,
       image:'./images/2.jpg'
   },
   {
       id :'3',
-      name :'headphones',
+      name :' Bose headphones ',
       price : 4000,
       image:'./images/3.jpg'
   },
@@ -33,10 +33,40 @@ function App() {
   },
   {
       id :'5',
-      name :'Air pod',
+      name :'pTron Air pod',
       price : 3000,
       image:'./images/5.jpg'
   },
+  {
+    id :'6',
+    name :'DSLR camera',
+    price : 10000,
+    image:'./images/6.jpg'
+},
+{
+  id :'7',
+  name :'Lenovo Laptop',
+  price : 23000,
+  image:'./images/7.jpg'
+},
+{
+  id :'8',
+  name :'Realme C35',
+  price : 19000,
+  image:'./images/8.jpg'
+},
+{
+  id :'9',
+  name :'IPhone 13',
+  price : 33000,
+  image:'./images/9.jpg'
+},
+{
+  id :'10',
+  name :'Samsuang Tv',
+  price : 20000,
+  image:'./images/10.jpg'
+},
   ])
   const [cart , setCart] = useState([]);
   const [showCart , setShowCart] = useState(false);
